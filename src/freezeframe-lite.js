@@ -5,20 +5,8 @@ import imagesLoaded from 'imagesloaded';
 
 import { isTouch, wrapNode, htmlToNode } from './utils';
 import * as templates from './templates';
-import { classes } from './classes';
+import { classes, defaultOptions, events } from './constants';
 import './styles.scss';
-
-const defaultOptions = {
-  responsive: true,
-  trigger: 'hover',
-  overlay: false,
-};
-
-const events = {
-  START: 'start',
-  STOP: 'stop',
-  TOGGLE: 'toggle',
-};
 
 class FreezeframeLite {
   items = [];
@@ -60,8 +48,8 @@ class FreezeframeLite {
   }
 
   wrap($image) {
-    const $container = htmlToNode(templates.container());
-    const $canvas = htmlToNode(templates.canvas());
+    const $container = htmlToNode(templates.container);
+    const $canvas = htmlToNode(templates.canvas);
 
     if (this.options.responsive) {
       $container.classList.add(classes.RESPONSIVE);

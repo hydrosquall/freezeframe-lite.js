@@ -13,3 +13,15 @@ export const classes = {
   CANVAS_READY: 'ff-canvas-ready',
   RESPONSIVE: 'ff-responsive',
 };
+
+export const defaultOptions = {
+  responsive: true,
+  trigger: "hover",
+  overlay: false
+};
+
+export const events = {
+  START: "start",
+  STOP: "stop",
+  TOGGLE: "toggle"
+};

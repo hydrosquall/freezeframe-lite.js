@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import Freezeframe from './FreezeframeLite';
+import Freezeframe from './freezeframe-lite';
 
 const FreezeframeWrapper = props => {
-  const imgRef = React.useRef();
-  const freezeframe = React.useRef();
+  const imgRef = useRef();
+  const freezeframe = useRef();
 
   const { src, className } = props;
 

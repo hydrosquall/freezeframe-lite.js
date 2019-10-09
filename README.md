@@ -2,11 +2,18 @@
 
 A smaller version of `freezeframe.js`, wrapped in a smaller bundle (X vs 66 KB).
 
+## TODO
+
+- Add bundler
+- Add license
+- Publish to NPM
+
 ### Supported
 
 - Only animate a single GIF when it is being hovered over.
   - Achieves this by overlaying the GIF with a canvas populated an image of the first frame.
 - A hooks-based React wrapper
+  - TODO: tear down event listeners when component is unmounted
 
 ### Not Supported
 

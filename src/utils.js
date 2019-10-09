@@ -5,6 +5,7 @@ export const isTouch = () => {
   return 'ontouchstart' in window || 'onmsgesturechange' in window;
 };
 
+// Create div with
 export const htmlToNode = html => {
   const $wrap = window.document.createElement('div');
   $wrap.innerHTML = html;
@@ -12,6 +13,7 @@ export const htmlToNode = html => {
   return $content.length > 1 ? $content : $content[0];
 };
 
+// Adds "wrapper" to the dom, with "element" as its child.
 export const wrapNode = ($el, $wrapper) => {
   $el.parentNode.insertBefore($wrapper, $el);
   $wrapper.appendChild($el);
