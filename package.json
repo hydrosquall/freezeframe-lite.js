@@ -8,7 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "test": "echo 'No tests yet!'",
+    "publish": "np"
   },
   "dependencies": {
     "freezeframe-lite": "^1.0.0",
@@ -22,6 +24,7 @@
     "core-js": "3",
     "css-loader": "^3.2.0",
     "node-sass": "^4.12.0",
+    "np": "^5.1.1",
     "sass-loader": "^8.0.0",
     "style-loader": "^1.0.0",
     "webpack": "^4.41.1",
