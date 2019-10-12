@@ -1,6 +1,6 @@
 {
   "name": "freezeframe-lite",
-  "version": "1.0.14",
+  "version": "1.1.0",
   "description": "A lighter-weight version of freezeframe.js",
   "main": "src/index.js",
   "repository": "https://github.com/hydrosquall/freezeframe-lite.js",
