@@ -1,6 +1,6 @@
 # freezeframe-lite
 
-A version of `freezeframe.js` with fewer features, wrapped in a smaller bundle (X vs 66 KB).
+A version of `freezeframe.js` with fewer features, in a 75% smaller bundle (16 KB vs 66 KB).
 
 ### Supported
 
