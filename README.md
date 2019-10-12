@@ -28,11 +28,23 @@ yarn add freezeframe-lite
 npm install freezeframe-lite
 ```
 
+To use ES6 modules imports and benefit from tree-shaking, import your code like this:
+
+```js
+// Main Freezeframe Class
+import FreezeframeLite from 'freezeframe-lite/freezeframe-lite';
+
+// React Wrapper
+import FreezeframeWrapper from 'freezeframe-lite/examples/FreezeframeWrapper';
+```
+
 ## Development
 
 1. Clone repository
 2. `yarn install`
 3. Modify contents of `src/` folder
+
+
 
 [install-size-image]: https://img.shields.io/bundlephobia/min/freezeframe-lite
 [install-size-url]: https://bundlephobia.com/result?p=freezeframe-lite
