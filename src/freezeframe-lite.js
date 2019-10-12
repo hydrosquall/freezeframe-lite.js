@@ -9,18 +9,22 @@ import { classes, defaultOptions, events } from './constants';
 import './styles.scss';
 
 class FreezeframeLite {
-  items = [];
-  $images = [];
 
-  eventListeners = {
-    ...Object.values(events).reduce((acc, item) => {
-      acc[item] = [];
-      return acc;
-    }, {}),
-  };
 
   constructor(node) {
     this.options = { ...defaultOptions };
+
+    // Class Properties
+    this.items = [];
+    this.$images = [];
+
+    this.eventListeners = {
+      ...Object.values(events).reduce((acc, item) => {
+        acc[item] = [];
+        return acc;
+      }, {})
+    };
+
     this.init(node);
   }
 
