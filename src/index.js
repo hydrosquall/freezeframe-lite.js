@@ -1,3 +1,1 @@
-import FreezeframeLite from './freezeframe-lite';
-
-export { FreezeframeLite };
+export { FreezeframeLite as default } from './freezeframe-lite';

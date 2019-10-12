@@ -31,6 +31,9 @@ npm install freezeframe-lite
 By default, an ES6 module is exported.
 
 ```js
+// import ES6 Module
+import FreezeframeLite from 'freezeframe-lite';
+
 // Import non-ES6 Module
 import FreezeframeLite from 'freezeframe-lite/dist/freezeframe-lite.min';
 
