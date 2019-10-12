@@ -28,11 +28,11 @@ yarn add freezeframe-lite
 npm install freezeframe-lite
 ```
 
-To use ES6 modules imports and benefit from tree-shaking, import your code like this:
+By default, an ES6 module is exported.
 
 ```js
-// Main Freezeframe Class
-import FreezeframeLite from 'freezeframe-lite/freezeframe-lite';
+// Import non-ES6 Module
+import FreezeframeLite from 'freezeframe-lite/dist/freezeframe-lite.min';
 
 // React Wrapper
 import FreezeframeWrapper from 'freezeframe-lite/examples/FreezeframeWrapper';
