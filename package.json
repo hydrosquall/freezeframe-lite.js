@@ -1,0 +1,10 @@
+{
+  "name": "freezeframe-lite",
+  "version": "1.0.0",
+  "description": "A lighter-weight version of freezeframe.js",
+  "main": "src/index.js",
+  "repository": "git@github.com:hydrosquall/freezeframe-lite.js.git",
+  "author": "Cameron Yick <cameron.yick@gmail.com>",
+  "license": "MIT",
+  "private": false
+}
