@@ -17,7 +17,7 @@
   "files": [
     "dist/*",
     "src/*",
-    "examples"
+    "examples/*"
   ],
   "sideEffects": false,
   "dependencies": {
