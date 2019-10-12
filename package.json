@@ -19,6 +19,7 @@
     "src/*",
     "examples"
   ],
+  "sideEffects": false,
   "dependencies": {
     "freezeframe-lite": "^1.0.4",
     "imagesloaded": "^4.1.4"
