@@ -2,7 +2,7 @@
 // This is quite similar to the wrapper that could be used for the main Freezeframe-js library too.
 import React, { useEffect, useRef } from 'react';
 import PropTypes from 'prop-types';
-import Freezeframe from '../freezeframe-lite';
+import Freezeframe from 'freezeframe-lite';
 
 const FreezeframeWrapper = props => {
   const imgRef = useRef();
