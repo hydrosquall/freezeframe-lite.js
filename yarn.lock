@@ -2413,13 +2413,6 @@ fragment-cache@^0.2.1:
   dependencies:
     map-cache "^0.2.2"
 
-freezeframe-lite@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/freezeframe-lite/-/freezeframe-lite-1.0.0.tgz#f5f60ae3f9e41e8dce5214721d96fa6bbaeeec72"
-  integrity sha512-9Ua5fHJF5+jKFqLbno6dkHxLcdxpURZSGmUcoMatr+soWjcmKcnZx/dO3PBnd2BMSmh491Qyqcxssef7iootNQ==
-  dependencies:
-    imagesloaded "^4.1.4"
-
 from2@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"

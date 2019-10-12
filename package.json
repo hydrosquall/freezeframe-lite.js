@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "description": "A lighter-weight version of freezeframe.js",
   "main": "dist/freezeframe-lite.min.js",
-  "repository": "git@github.com:hydrosquall/freezeframe-lite.js.git",
+  "repository": "https://github.com/hydrosquall/freezeframe-lite.js",
   "author": "Cameron Yick <cameron.yick@gmail.com>",
   "license": "MIT",
   "private": false,
@@ -18,7 +18,6 @@
     "examples"
   ],
   "dependencies": {
-    "freezeframe-lite": "^1.0.0",
     "imagesloaded": "^4.1.4"
   },
   "devDependencies": {
