@@ -2,7 +2,7 @@
   "name": "freezeframe-lite",
   "version": "1.0.0",
   "description": "A lighter-weight version of freezeframe.js",
-  "main": "src/index.js",
+  "main": "dist/freezeframe-lite.min.js",
   "repository": "git@github.com:hydrosquall/freezeframe-lite.js.git",
   "author": "Cameron Yick <cameron.yick@gmail.com>",
   "license": "MIT",
@@ -11,6 +11,7 @@
     "build": "webpack"
   },
   "dependencies": {
+    "freezeframe-lite": "^1.0.0",
     "imagesloaded": "^4.1.4"
   },
   "devDependencies": {
