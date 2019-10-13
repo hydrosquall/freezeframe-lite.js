@@ -1,4 +1,9 @@
+//www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
+require("dotenv").config();
+
 const webpack = require("webpack");
+
+const BundleAnalyzerPlugin = require("@bundle-analyzer/webpack-plugin");
 
 module.exports = {
   context: __dirname + "/src",
@@ -13,11 +18,11 @@ module.exports = {
         test: /\.s[ac]ss$/i,
         exclude: /node_modules/,
         use: [
-          'style-loader',
+          "style-loader",
           // Translates CSS into CommonJS
-          'css-loader',
+          "css-loader",
           // Compiles Sass to CSS
-          'sass-loader',
+          "sass-loader"
         ]
       },
       {
@@ -26,5 +31,6 @@ module.exports = {
         exclude: /node_modules/
       }
     ]
-  }
+  },
+  plugins: [new BundleAnalyzerPlugin({ token: process.env.BUNDLE_ANALYZER_TOKEN })]
 };
