@@ -2,7 +2,7 @@
 
 [![NPM Install Size][install-size-image]][install-size-url]
 
-A version of `freezeframe.js`, in a 75% smaller bundle (16 KB vs 66 KB) and with fewer features. Motivated by a [feature request](https://github.com/lbryio/lbry-desktop/pull/2986) during Hacktoberfest 2019.
+A version of `freezeframe.js` in a 88% smaller bundle (8 KB vs 66 KB) and with fewer features. Motivated by a [feature request](https://github.com/lbryio/lbry-desktop/pull/2986) during Hacktoberfest 2019.
 
 [React Codesandbox Demo](https://codesandbox.io/s/peaceful-kapitsa-o0i6z?fontsize=14)
 
